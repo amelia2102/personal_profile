@@ -15,10 +15,15 @@ function Navbar() {
           <li><a href="#contact" className="hover:text-purple-600">Contact</a></li>
         </ul>
 
-        <button className="flex md:flex items-center gap-2 bg-gradient-to-r from-[#755FFF] to-[#FF54B0] text-white px-4 py-2 md:px-5 md:py-2 rounded-lg font-semibold shadow-md hover:opacity-90 transition">
+        <a
+          href="https://wa.me/6282140849103" // ganti dengan nomor kamu
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 bg-gradient-to-r from-[#755FFF] to-[#FF54B0] text-white px-4 py-2 md:px-5 md:py-2 rounded-lg font-semibold shadow-md hover:opacity-90 transition"
+        >
           <FaPaperPlane className="text-sm" />
           Hire Me
-        </button>
+        </a>
 
         <button
           onClick={() => setIsOpen(!isOpen)}
