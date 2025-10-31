@@ -11,7 +11,7 @@ function Navbar() {
         <ul className="hidden md:flex gap-8 text-gray-700 font-medium">
           <li><a href="#about" className="hover:text-purple-600">About</a></li>
           <li><a href="#skills" className="hover:text-purple-600">Skills</a></li>
-          <li><a href="#portfolio" className="hover:text-purple-600">Portfolio</a></li>
+          <li><a href="#portofolio" className="hover:text-purple-600">Portofolio</a></li>
           <li><a href="#contact" className="hover:text-purple-600">Contact</a></li>
         </ul>
 

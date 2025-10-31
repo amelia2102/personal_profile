@@ -4,7 +4,7 @@ import mobile from "../assets/images/MobileApp.png";
 import motion from "../assets/images/Motion.png";
 import { FaWhatsapp } from "react-icons/fa";
 
-const PortfolioSection = () => {
+const PortofolioSection = () => {
   const projects = [
     {
       title: "Dashboard Web App",
@@ -32,7 +32,7 @@ const PortfolioSection = () => {
       className="w-full py-16 flex flex-col items-center scroll-mt-40"
       style={{ backgroundColor: "#FAFBFC" }}
     >
-      <h2 className="text-4xl font-bold text-gray-800 mb-10">Portfolio</h2>
+      <h2 className="text-4xl font-bold text-gray-800 mb-10">Portofolio</h2>
 
       <div className="flex flex-wrap justify-center gap-10 px-8 max-w-[1400px]">
         {projects.map((project, index) => (
@@ -73,4 +73,4 @@ const PortfolioSection = () => {
   );
 };
 
-export default PortfolioSection;
+export default PortofolioSection;
